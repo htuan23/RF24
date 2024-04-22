@@ -104,15 +104,15 @@ typedef uint16_t rf24_gpio_pin_t;
             // change these pins to your liking
             //
             #ifndef SOFT_SPI_MISO_PIN
-                #define SOFT_SPI_MISO_PIN 9
+                #define SOFT_SPI_MISO_PIN 50
             #endif // SOFT_SPI_MISO_PIN
 
             #ifndef SOFT_SPI_MOSI_PIN
-                #define SOFT_SPI_MOSI_PIN 8
+                #define SOFT_SPI_MOSI_PIN 51
             #endif // SOFT_SPI_MOSI_PIN
 
             #ifndef SOFT_SPI_SCK_PIN
-                #define SOFT_SPI_SCK_PIN 7
+                #define SOFT_SPI_SCK_PIN 52
             #endif // SOFT_SPI_SCK_PIN
 
 const uint8_t SPI_MODE = 0;
